@@ -1,0 +1,4 @@
+PyTorch="2.11.0+cu128"
+TorchVision="0.26.0+cu128"
+YOLO="YOLO26n-cls"
+Device="Cuda" or "CPU"
