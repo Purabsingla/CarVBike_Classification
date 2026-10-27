@@ -1,5 +1,13 @@
-PyTorch= "2.11.0+cu128"
-TorchVision= "0.26.0+cu128"
-YOLO= "YOLO26n-cls"
-Device= "Cuda" or "CPU"
-OpenCV= "4.13.0"
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics
+opencv-python
+torchinfo
+matplotlib
+scikit-learn
+pytorch-ignite
+
+If Running on Kaggle install 
+!pip install -U ultralytics
