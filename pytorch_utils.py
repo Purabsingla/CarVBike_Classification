@@ -297,7 +297,7 @@ def create_dataloaders(train_data=None, val_data=None, test_data=None, batch_siz
     elif not test_data and val_data:
         return train_dataloader, val_dataloader
     elif test_data and not val_data:
-        return train_dataloader, test_dataloade
+        return train_dataloader, test_dataloader
     
     return train_dataloader, val_dataloader, test_dataloader
 
